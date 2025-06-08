@@ -35,6 +35,8 @@ import {
   Shield as FileShield,
   Key,
   AlertCircle,
+  Layout,
+  Smartphone,
 } from "lucide-react";
 
 type Page =
@@ -175,6 +177,33 @@ function App() {
         "Container Security",
         "Serverless Protection",
         "CSPM Tools",
+      ],
+    },
+
+    {
+      id: "web-development",
+      icon: Layout,
+      title: "Web Development",
+      description:
+        "Modern, responsive, and secure web applications built with cutting-edge technologies.",
+      features: [
+        "React/Next.js Development",
+        "Node.js Backends",
+        "Responsive Design",
+        "Performance Optimization",
+      ],
+    },
+    {
+      id: "flutter-development",
+      icon: Smartphone,
+      title: "Flutter Development",
+      description:
+        "Cross-platform mobile applications with beautiful UI and native performance.",
+      features: [
+        "iOS & Android Apps",
+        "Custom UI/UX Design",
+        "Firebase Integration",
+        "State Management",
       ],
     },
   ];
@@ -702,6 +731,160 @@ function App() {
           step: "5",
           title: "Optimization",
           description: "Performance and security optimization",
+        },
+      ],
+    },
+
+    "web-development": {
+      title: "Web Development Services",
+      subtitle: "Modern, Responsive & Secure Web Applications",
+      hero: "Build high-performance web applications with cutting-edge technologies and security built-in",
+      sections: [
+        {
+          title: "Frontend Development",
+          icon: Layout,
+          description:
+            "Beautiful, responsive user interfaces built with modern frameworks and best practices.",
+          features: [
+            "React.js & Next.js",
+            "TypeScript Development",
+            "Responsive Design",
+            "Performance Optimization",
+            "Accessibility Compliance",
+            "UI/UX Best Practices",
+          ],
+        },
+        {
+          title: "Backend Development",
+          icon: Server,
+          description:
+            "Robust backend systems with scalable architecture and security features.",
+          features: [
+            "Node.js & Express",
+            "RESTful & GraphQL APIs",
+            "Database Integration",
+            "Authentication Systems",
+            "API Security",
+            "Microservices Architecture",
+          ],
+        },
+        {
+          title: "Full Stack Solutions",
+          icon: Settings,
+          description:
+            "End-to-end web applications with seamless frontend-backend integration.",
+          features: [
+            "Full Stack JavaScript",
+            "Serverless Architecture",
+            "CI/CD Pipelines",
+            "Automated Testing",
+            "DevOps Integration",
+            "Security Audits",
+          ],
+        },
+      ],
+      process: [
+        {
+          step: "1",
+          title: "Planning",
+          description: "Requirements gathering and project scoping",
+        },
+        {
+          step: "2",
+          title: "Design",
+          description: "UI/UX design and architecture planning",
+        },
+        {
+          step: "3",
+          title: "Development",
+          description: "Implementation of frontend and backend",
+        },
+        {
+          step: "4",
+          title: "Testing",
+          description: "Quality assurance and security testing",
+        },
+        {
+          step: "5",
+          title: "Deployment",
+          description: "Production deployment and monitoring",
+        },
+      ],
+    },
+
+    "flutter-development": {
+      title: "Flutter Development Services",
+      subtitle: "Cross-Platform Mobile Applications",
+      hero: "Build beautiful, native-quality iOS and Android apps from a single codebase",
+      sections: [
+        {
+          title: "Custom App Development",
+          icon: Smartphone,
+          description:
+            "Tailored mobile applications designed for your specific business needs.",
+          features: [
+            "iOS & Android Support",
+            "Custom UI/UX Design",
+            "State Management",
+            "Native Performance",
+            "Platform Integration",
+            "Offline Capabilities",
+          ],
+        },
+        {
+          title: "Firebase Integration",
+          icon: Cloud,
+          description:
+            "Seamless integration with Firebase for backend services and real-time data.",
+          features: [
+            "Firebase Authentication",
+            "Cloud Firestore",
+            "Real-time Database",
+            "Cloud Functions",
+            "Analytics",
+            "Push Notifications",
+          ],
+        },
+        {
+          title: "Maintenance & Support",
+          icon: Settings,
+          description:
+            "Ongoing support and updates to keep your app running smoothly.",
+          features: [
+            "Bug Fixes",
+            "Performance Optimization",
+            "Feature Updates",
+            "Security Patches",
+            "App Store Updates",
+            "Technical Support",
+          ],
+        },
+      ],
+      process: [
+        {
+          step: "1",
+          title: "Concept",
+          description: "Idea validation and feature planning",
+        },
+        {
+          step: "2",
+          title: "Prototyping",
+          description: "UI/UX design and interactive prototypes",
+        },
+        {
+          step: "3",
+          title: "Development",
+          description: "App development and integration",
+        },
+        {
+          step: "4",
+          title: "Testing",
+          description: "Quality assurance and user testing",
+        },
+        {
+          step: "5",
+          title: "Launch",
+          description: "App store deployment and marketing",
         },
       ],
     },
